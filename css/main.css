@@ -62,3 +62,11 @@ svg {
     stroke-dasharray: 480,480;
   }
 }
+
+.engage path:nth-child(6) {
+  fill: #f60;
+  transition: all 1s ease;
+  transition-delay: .5s;
+}
+
+engaged path:nth
