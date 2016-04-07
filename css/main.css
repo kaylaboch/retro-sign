@@ -51,3 +51,14 @@ svg {
 .is-pressed path {
   animation: addlines 1s forwards;
 }
+
+@keyframes addlines {
+
+  0% {
+    stroke-dasharray: 0, 480;
+  }
+
+  100% {
+    stroke-dasharray: 480,480;
+  }
+}
