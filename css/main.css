@@ -39,6 +39,11 @@ svg {
 .btn path:last-child {
   fill: #f60;
 }
+
+.btn:active {
+  transform: scale(1, 1);
+}
+
 .lines path {
   stroke-dasharray: 0, 480;
 }
