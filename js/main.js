@@ -5,6 +5,6 @@ var $btn = ('.btn');
 
 $('svg').on('click', function (e) {
   $('engage').toggleClass('engaged');
-  $btn.toggleClass('.btn');
+  $btn.toggleClass('button');
   $('svg').toggleClass('is-pressed');
 });
