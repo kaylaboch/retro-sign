@@ -49,5 +49,5 @@ svg {
 }
 
 .is-pressed path {
-  animation: addlines 1s forwards
+  animation: addlines 1s forwards;
 }
