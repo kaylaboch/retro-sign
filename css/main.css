@@ -34,7 +34,6 @@ svg {
 
 .btn path:last-child:active {
   transform: scale(1, 1);
-  fill: #f60;
   transition: all 1s ease;
 }
 
@@ -46,6 +45,7 @@ svg {
 .btn:active {
   transform: scale(1, 1);
   transition: all 1s ease;
+  fill: #f60;
 }
 
 .lines path {
