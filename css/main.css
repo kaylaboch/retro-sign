@@ -29,19 +29,23 @@ svg {
 
 .btn {
   cursor: pointer;
+  transition: all 1s ease;
 }
 
 .btn path:last-child:active {
   transform: scale(1, 1);
   fill: #f60;
+  transition: all 1s ease;
 }
 
 .btn path:last-child {
   fill: #f60;
+  transition: all 1s ease;
 }
 
 .btn:active {
   transform: scale(1, 1);
+  transition: all 1s ease;
 }
 
 .lines path {
